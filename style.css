@@ -45,6 +45,7 @@ button {
 .list {
     text-align: justify;
     font-size: 10px;
+    grid-template-columns: auto;
 }
 
 #linkedin {
