@@ -1,0 +1,52 @@
+body { 
+    color: rgb(192, 194, 194);
+    background-color: rgb(0, 0, 0);
+    font-family:'Red Hat Display', 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-image: url(/imgs/bg.jpg);
+    background-blend-mode: darken;
+    color: rgb(148, 148, 148);
+    background-color: rgb(1, 175, 108);
+    text-decoration: none;
+    padding: 40px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase; 
+    letter-spacing: 15px;
+    border-radius: 20px;
+}
+
+.fotos-home {
+    background-image: ;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+#foto-de-perfil {
+    padding: 1px;
+    outline: 2px;
+    outline-style:solid;
+    outline-color: black
+}
+
+.list {
+    text-align: justify;
+    font-size: 10px;
+}
+
+#linkedin {
+    text-decoration: none;
+}
+
+#github {
+    text-decoration: none;
+}
+
+.sobremim {
+    font-family: 'Roboto Condensed', sans-serif;
+}
