@@ -7,18 +7,63 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <title>Meu Portfólio</title>
 </head>
+<style>
+body { color: rgb(192, 194, 194);
+    background-color: rgb(54, 57, 70);
+    font-family:'Red Hat Display', 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(1, 175, 108);
+    text-align: center;
+    text-decoration: none;
+    font-style: initial;
+    padding: 10px;  
+    font-size: 22px; 
+    text-shadow: 0.1px 0.01px 1px;
+}
+
+#foto-de-perfil {
+    padding: 1px;
+    outline: 2px;
+    outline-style:solid;
+    outline-color: black
+}
+
+.list {
+    text-align: justify;
+    font-size: 10px;
+}
+
+#linkedin {
+    text-decoration: none;
+}
+
+#github {
+    text-decoration: none;
+}
+
+.sobremim {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+</style>
 <body>
-    <h1>Rodrigo Bianek</h1>
+    <h1><strong>Rodrigo Bianek</strong></h1>
     <img src="imgs/foto_rodrigo.jpg" alt="Retrato de Rodrigo Bianek 
     na entrada de formatura, com beca" width="200px" id="foto-de-perfil"> <br>
 
+    <p class="sobremim">
     <strong>Idade:</strong> 27 Anos <br>
     <strong>Localização:</strong> São Mateus do Sul - Paraná
+    </p>
 
-    <h3 id="sobremim">Sobre mim</h3>
-    <p><em>Hello, world!</em><br>
+    <h3 class="sobremim">Sobre mim</h3>
+    <p class="sobremim"><em>Hello, world!</em><br>
         
     Me chamo <strong>Rodrigo Bianek</strong>, tenho 27 anos e resido no extremo sul do Paraná, em São Mateus do Sul! <br>
     Estou iniciando a minha transição de carreira neste momento, sou Bacharel em Educação Física pela UGV, formado desde 2018 mas infelizmente não segui a profissão.<br>
@@ -32,7 +77,7 @@
     <br>
     <hr>
     <h4 id="skills">Lista de habilidades</h4>
-    <ul>
+    <ul class="list">
         <li>Unix & Bash</li>
         <li>Git e GitHub</li>
         <li>HTML</li>
@@ -40,8 +85,8 @@
        
     </ul>
     
-    <h4><em>Soft Skills</em></h4>
-    <ul>
+    <h4><em> Soft Skills</em></h4>
+    <ul class="list">
         <li>Persistência</li>
         <li>Comunicação</li>
         <li>Empatia</li>
@@ -51,7 +96,7 @@
     </ul>
 
     <h4><em>Interesses/Hobbies</em></h4>
-    <ul>
+    <ul class="list">
         <li>Apaixonado por Counter-strike. (CSGO)</li>
         <li>Ecoturismo</li>
         <li>Música</li>
