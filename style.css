@@ -42,11 +42,17 @@ button {
 }
 
 
-.list {
-    text-align: justify;
-    font-size: 10px;
-    grid-template-columns: auto;
+.lists {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    justify-content: center;
 }
+
 
 #linkedin {
     text-decoration: none;
