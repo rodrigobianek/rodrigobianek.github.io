@@ -19,20 +19,28 @@ h1 {
     border-radius: 20px;
 }
 
+.sectiontitle {
+    color: white;
+    font-size: 30px;
+}
+
+.lists {
+    width:200px;
+    display: flex;
+    
+}
+
 .fotos-home {
-    background-image: ;
     display: inline-block;
     padding: 5px;
     border-radius: 10px;
 }
 
-
-#foto-de-perfil {
-    padding: 1px;
-    outline: 2px;
-    outline-style:solid;
-    outline-color: black
+button {
+    padding: 10px;
+    color: black;
 }
+
 
 .list {
     text-align: justify;
