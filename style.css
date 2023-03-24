@@ -43,16 +43,18 @@ button {
 
 
 .lists {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 50%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    width: 150px;
     font-size: 12px;
     justify-content: center;
+    text-align: left;
 }
 
+div.lists {
+    display: inline-block;
+}
+    
+}
 
 #linkedin {
     text-decoration: none;
