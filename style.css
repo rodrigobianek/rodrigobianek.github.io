@@ -24,12 +24,6 @@ h1 {
     font-size: 30px;
 }
 
-.lists {
-    width:200px;
-    display: flex;
-    
-}
-
 .fotos-home {
     display: inline-block;
     padding: 5px;
@@ -43,17 +37,18 @@ button {
 
 
 .lists {
-    display: inline-block;
-    width: 150px;
-    font-size: 12px;
     justify-content: center;
-    text-align: left;
-}
-
-div.lists {
-    display: inline-block;
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+    margin: 10%;
 }
     
+.flex-item {
+    text-align: center;
+    list-style: none;
+    width: 250px;
+
 }
 
 #linkedin {
