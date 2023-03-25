@@ -40,14 +40,20 @@ button {
     justify-content: center;
     display: flex;
     font-size: 12px;
-    gap: 10px;
-    margin: 10%;
+    margin: 5%;
+    justify-content: space-evenly;
 }
-    
+
 .flex-item {
     text-align: center;
+    padding-inline-start: 0;
+}
+
+.flex-item li {
+    text-align: center;
+    justify-content: center;
     list-style: none;
-    width: 250px;
+    width: 100px;
 
 }
 
